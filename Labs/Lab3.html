@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="image-preview">
+        <img src="Images/20231125191228!Kaau_logo.jpg" alt="KAU Logo" width="200" height="250">
+    </div>
+
+    <style>
+    .image-preview img {
+        border-top: 30px solid skyblue;
+        border-right: 30px solid lightpink;
+        border-bottom: 30px solid lightgreen;
+        border-left: 30px solid #ffefd5;
+    }
+    </style>
+
+    <div id="header">
+        <span class="myclass1">Every</span>
+        <span class="myclass2">one can</span>
+        <span class="myclass3">success.</span>
+    </div>
+    
+    <p> One machine can do the work of fifty ordinary men.
+        <span class="myclass4">No machine can do the work of one extraordinary man.</span>
+    </p>
+
+    <style>
+        p > span { color: red; }
+        #header span { color: pink; }
+        span { color: green; }
+        #header *:last-child { color: orange; }
+        #header span:first-child:hover { color: blue; }
+    </style>
+
+    <table border="1">
+        <tr>
+            <th></th>
+            <th>color</th>
+            <th>color when mouse over</th>
+        </tr>
+
+        <tr>
+            <td>span.myclass1</td>
+            <td>pink</td>
+            <td>blue</td>
+        </tr>
+
+        <tr>
+            <td>span.myclass2</td>
+            <td>pink</td>
+            <td>pink</td>
+        </tr>
+
+        <tr>
+            <td>span.myclass3</td>
+            <td>orange</td>
+            <td>orange</td>
+        </tr>
+
+        <tr>
+            <td>span.myclass4</td>
+            <td>red</td>
+            <td>red</td>
+        </tr>
+    </table>
+</body>
+</html>
